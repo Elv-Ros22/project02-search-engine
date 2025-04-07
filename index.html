@@ -25,14 +25,25 @@
       href="https://fonts.googleapis.com/css2?family=Underdog&display=swap"
       rel="stylesheet"
     />
-    <h1 class="text-center">Giphy Search</h1>
 
-    <div>
+    <h1 class="title">Giphy Search</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Themes</a></li>
+        <li><a href="#">Create</a></li>
+      </ul>
+    </nav>
+
+    <div class="search-section">
       <input type="text" id="input" />
       <div id="btn" onclick="sendApiRequest()">
         <span class="noselect">Giphy</span>
         <div id="circle"></div>
       </div>
     </div>
+    <section class="gif-container" id="gifContainer"></section>
+    <button class="reset">Reset</button>
+    <script src="main.js"></script>
   </body>
 </html>
