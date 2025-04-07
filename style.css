@@ -5,41 +5,6 @@ html {
   background-color: #2d3436;
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
-.title {
-  font-size: 50px;
-  text-align: center;
-  font-family: Underdog, cursive;
-}
-.navbar ul {
-  padding: 20px 20px 20px;
-  display: flex;
-  justify-content: center;
-}
-.navbar li {
-  display: inline;
-}
-@media (max-width: 320px) {
-  .title {
-    font-size: 20px;
-    text-align: center;
-  }
-  .navbar ul {
-    flex-direction: column;
-    align-items: center;
-  }
-  .navbar li {
-    display: block;
-    margin: 5px 0;
-  }
-  .gif-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .gif-container img {
-    width: 90%;
-    max-width: 300px;
-  }
-}
 #btn {
   background: rgb(122, 3, 122);
   height: 45px;
@@ -77,25 +42,6 @@ html {
   width: 100px;
   left: 0;
   border-radius: 0;
-}
-.reset {
-  background: rgb(122, 3, 122);
-  height: 45px;
-  min-width: 90px;
-  border: none;
-  border-radius: 10px;
-  color: #eee;
-  font-size: 35px;
-  font-family: "Underdog", cursive;
-  position: relative;
-  transition: 1s;
-  -webkit-tap-highlight-color: transparent;
-  display: inline-block;
-  text-align: center;
-  justify-content: center;
-  cursor: pointer;
-  padding: 0 20px;
-  margin: 10px;
 }
 #input {
   background: white;
